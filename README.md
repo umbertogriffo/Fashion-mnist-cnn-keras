@@ -40,11 +40,13 @@ The network topology can be summarized as follows:
 
 ## Results
 
-Accuracy scores:  [0.92433, 0.92133, 0.923581, 0.92391, 0.92466]
-Mean Accuracy 0.923567
-Stdev Accuracy 0.001175
+**Accuracy scores:**  [0.92433, 0.92133, 0.923581, 0.92391, 0.92466]
 
-Final Accuracy: 92.56%
+**Mean Accuracy:** 0.923567
+
+**Stdev Accuracy:** 0.001175
+
+**Final Accuracy:** 92.56%
 
 The following picture shows the trend of the Accuracy of the final learning: 
 <p align="center">
