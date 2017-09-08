@@ -40,11 +40,15 @@ The network topology can be summarized as follows:
 
 ## Results
 
+I evaluated the model using the 5-fold cross-validation on 60,000 examples divided into train and test.
+
 **Accuracy scores:**  [0.92433, 0.92133, 0.923581, 0.92391, 0.92466]
 
 **Mean Accuracy:** 0.923567
 
 **Stdev Accuracy:** 0.001175
+
+I ran a new learning from scratch on 60,000 examples and then I evaluated test accuracy on the test set of 10,000 examples.
 
 **Final Accuracy:** 92.56%
 
