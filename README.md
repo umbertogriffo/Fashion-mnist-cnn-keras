@@ -8,13 +8,10 @@
 	* 2 Intel Xeon E5-2630 v4 2.2GHz, 25M Cache, 8.0 GT/s QPI, Turbo, HT, 10C/20T (85W) Max Mem 2133MHz
 	* 128 GB Ram
 	* 1 TB Disk
-	* Python 3.5, TensorFlow 1.2.0, Keras 2.0.5, numpy, matplotlib, pandas 0.20.2, scikit-learn 0.18.1, h5py 2.7.0
+	* Python 3.5, TensorFlow 1.11.0, Keras 2.2.4, numpy, matplotlib, scikit-learn, h5py
 
-## Data
-You can download the Fashion Mnist dataset from Kaggle <a href="https://www.kaggle.com/zalando-research/fashionmnist">here</a> and then put the files into **/Dataset** directory.
-		
 ## Training
-execute fashion_mnist_cnn.py
+execute **fashion_mnist_cnn.py**
 
 ## Preprocessing
 Normalization
