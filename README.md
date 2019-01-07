@@ -3,11 +3,8 @@
 * Author: Umberto Griffo
 * Twitter: @UmbertoGriffo
 
-## Environment and software requirements
+## Software requirements
 	
-	* 2 Intel Xeon E5-2630 v4 2.2GHz, 25M Cache, 8.0 GT/s QPI, Turbo, HT, 10C/20T (85W) Max Mem 2133MHz
-	* 128 GB Ram
-	* 1 TB Disk
 	* Python 3.6, TensorFlow 1.11.0, Keras 2.2.4, numpy, matplotlib, scikit-learn, h5py
 
 ## Training
