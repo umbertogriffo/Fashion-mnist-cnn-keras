@@ -136,6 +136,9 @@ def main():
 
     print('train shape: {}'.format(x_train.shape))
     print('test shape: {}'.format(x_test.shape))
+    
+    unique, counts = np.unique(y_train, return_counts=True)
+    print(dict(zip(unique, counts)))
 
     y_train_CNN = y_train  # only labels i.e targets digits
     X_train_CNN = x_train.reshape(x_train.shape[0], 1, 28, 28).astype(np.uint8)
