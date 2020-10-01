@@ -116,7 +116,7 @@ def model_cnn(num_classes):
 
     model.add(Dense(num_classes, activation='softmax'))
     # Compile model
-    lrate = 0.01
+    lrate = 0.0001
     decay = lrate / epochs
     sgd = SGD(lr=lrate, momentum=0.9, decay=decay, nesterov=True)
     model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
@@ -228,6 +228,15 @@ def main():
     plt.show()
     fig_acc.savefig("../Output/model_accuracy_fm_cnn.png")
 
+    
+    plt.plot(history.history['loss'], label="Training Loss")
+    plt.plot(history.history['val_loss'], label="Test Loss")
+    plt.title('VGG16 Model Train vs Test Loss')
+    plt.ylabel('Loss')
+    plt.xlabel('Epoch')
+    plt.legend(loc='upper right')
+    plt.show()
+    plt.savefig("../Output/model_loss_fm_cnn.png")
 
 if __name__ == "__main__":
     main()
